@@ -45,7 +45,7 @@ class Quiz {
 //開始ボタンを押した時の動き
 stBtn.addEventListener('click', () => {
     stBtn.hidden = true;
-    fetchQuizData(1);
+    await fetchQuizData(1);
 });
 
 // APIからクイズデータを取得
